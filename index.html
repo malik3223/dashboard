@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Abichandani Fund</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+<!-- Header -->
+<header class="header">
+  <h1 class="title">Abichandani Fund</h1>
+  <div class="header-right">
+    <span class="welcome-text">Welcome, Manoj</span>
+
+    <!-- Hamburger with dropdown -->
+    <div class="menu-wrapper">
+      <button aria-label="Menu" class="menu-btn" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Dropdown Menu -->
+      <div class="dropdown-menu" id="dropdownMenu">
+        <button class="dropdown-item">My Details</button>
+        <button class="dropdown-item logout">Log Out</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="grid-2">
+    <section class="card">
+      <div class="card-header">Fund Details</div>
+      <div class="card-body grid-2">
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/fund-details.png" alt="Fund Details" />
+          <span>Fund Details</span>
+        </button>
+        
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/add-member.png" alt="Add Member" />
+          <span>Add Member</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/remove-member.png" alt="Remove Member" />
+          <span>Remove Member</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/change-trustee.png" alt="Change Trustee" />
+          <span>Change Trustee</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">Fund Action</div>
+      <div class="card-body grid-2">
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/pension.png" alt="Commence Pension" />
+          <span>Commence<br>Pension</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="assets/icons/pension.png" alt="LRBA" />
+          <span>LRBA</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="images/death-nomination.png" alt="Death Nomination" />
+          <span>Death<br>Nomination</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="images/sign-doc-now.png" alt="Sign Doc Now" />
+          <span>Sign<br>Doc Now</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <div class="grid-2">
+    <section class="card">
+      <div class="card-header">Queries</div>
+      <div class="card-body2 grid-2">
+        <button class="btn icon-btn small-label">
+          <img src="images/answer-queries.png" alt="Answer Queries" />
+          <span>Answer<br>Queries</span>
+        </button>
+        <button class="btn icon-btn small-label">
+          <img src="images/raise-queries.png" alt="Raise a Queries" />
+          <span>Raise a<br>Queries</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">Upload Fund Doc</div>
+      <div class="card-body1 grid-3">
+        <button class="btn icon-btn2 small-label">
+          <img src="assets/icons/permanent-docs.png" alt="Permanent Docs" />
+          <span>Permanent<br>Docs</span>
+        </button>
+        <button class="btn icon-btn2 small-label">
+          <img src="assets/icons/previous-docs.png" alt="Current Year Docs" />
+          <span>Current<br>Year Docs</span>
+        </button>
+        <button class="btn icon-btn2 small-label">
+          <img src="assets/icons/previous-docs.png" alt="Previous Year Docs" />
+          <span>Previous<br>Year Docs</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <section class="card2">
+    <div class="card-header">Download Fund Doc</div>
+    <div class="card-body grid-5">
+      <button class="btn icon-btn3 small-label small-label">
+        <img src="assets/icons/permanent-docs.png" alt="Permanent Docs" />
+        <span>Permanent<br>Docs</span>
+      </button>
+      <button class="btn icon-btn3 small-label">
+        <img src="assets/icons/permanent-docs.png" alt="Current Year Docs" />
+        <span>Current<br>Year Docs</span>
+      </button>
+      <button class="btn icon-btn3 small-label">
+        <img src="assets/icons/permanent-docs.png" alt="Previous Year Docs" />
+        <span>Previous<br>Year Docs</span>
+      </button>
+      <button class="btn icon-btn3 small-label">
+        <img src="assets/icons/permanent-docs.png" alt="Admin Doc" />
+        <span>Admin<br>Doc</span>
+      </button>
+      <button class="btn icon-btn3 small-label">
+        <img src="assets/icons/permanent-docs.png" alt="Signed Docs" />
+        <span>Signed<br>Docs</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="setup-info">
+    <p><strong>Setup Date:</strong> 01/01/0001</p>
+    <p><strong>Address:</strong> Unit Suite 3, 124 SUITER STREET, MENZIES WA 6436</p>
+    <p><strong>Type:</strong> Individual Trustees <strong class="members-label">Members:</strong> 2</p>
+    <div class="trustees-grid">
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+      <div class="trustee">
+        <p>Manoj Abichandani <span class="role">(Role: Individual Trustee)</span></p>
+        <p>Email: manoj@trustdeed.com.au</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+    <footer class="footer">
+      2025 © Accu AI - All rights reserved.
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
